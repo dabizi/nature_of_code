@@ -1,4 +1,26 @@
 #Introduction
 Notes from Nature of Code
 
-A distribution of values that cluster around an average (referred to as the “mean”) is known as a “normal” distribution. It is also called the Gaussian distribution (named for mathematician Carl Friedrich Gauss) or, if you are French, the Laplacian distribution (named for Pierre-Simon Laplace). Both mathematicians were working concurrently in the early nineteenth century on defining such a distribution.
+A distribution of values that cluster around an average (referred to as the “mean”) 
+is known as a “normal” distribution. It is also called the Gaussian distribution 
+(named for mathematician Carl Friedrich Gauss) or, if you are French, the Laplacian
+distribution (named for Pierre-Simon Laplace). Both mathematicians were working 
+concurrently in the early nineteenth century on defining such a distribution.
+
+The numbers work out as follows: Given a population, 68% of the members
+of that population will have values in the range of one standard deviation
+from the mean, 98% within two standard deviations, and 99.7% within three
+standard deviations. Given a standard deviation of 5 pixels, only 0.3% of
+the monkey heights will be less than 235 pixels (three standard deviations
+below the mean of 250) or greater than 265 pixels (three standard deviations
+above the mean of 250).
+
+
+The mean is the average
+The standard deviation is calculated as the square root of the average 
+of the squares of deviations around the mean. In other words, take the
+difference from the mean for each person and square it (variance). 
+Calculate the average of all these values and take the square root
+as the standard deviation.
+
+The standard deviation is the square root of the average variance
